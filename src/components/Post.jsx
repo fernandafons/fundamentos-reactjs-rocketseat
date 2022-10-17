@@ -17,11 +17,19 @@ export function Post(){
       </header>
 
       <div className={styles.content}>
-        <p>Faça Galera</p>
+        <p>Fala Galera</p>
         <p>Acabei de subir mais um projeto</p>
         <p>Fiz com a Rocketseat</p>
         <p><a href="">#novoprojeto</a></p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+        <textarea 
+        placeholder="Deixe um comentário"
+        />
+        <button type="submit">Comentar</button>
+      </form>
     </article>
     )
 };
